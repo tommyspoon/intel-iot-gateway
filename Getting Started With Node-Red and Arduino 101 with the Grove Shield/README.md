@@ -2,18 +2,14 @@
 <cr>
 
 ## Overview ##
-Node-RED is a tool for wiring together hardware devices, APIs and online
-services in new and interesting ways. Node-RED provides a browser-based
-flow editor that makes it easy to wire together flows using the wide
-range nodes in the palette. Flows can be then deployed to the run-time in
-a single-click. The light-weight run-time is built on Node.js, taking
-full advantage of its event-driven, non-blocking model. This makes it
-ideal to run at the edge of the network. Arduino 101 is the ideal successor of the UNO, updated with the latest technologies including the Intel(R) Curie(TM) processor.  It recognizes gestures and features a six-axis accelerometer and gyroscope.  Grove is a modulated, ready-to-use tool set. Much like Lego, it takes a building block approach to assembling electronics. Compared with the traditional, complicated learning method of using a breadboard and various electronic components to assemble a project, Grove simplifies and condenses the learning process significantly. The Grove system consists of a base shield and various modules with standardized connectors. The base shield allows for easy connection of any microprocessor input or output from the Grove modules, and every Grove module addresses a single function, such as a simple button or a more complex heart rate sensor. Each one comes with clear documentation and demo code to help you get started quickly.
+Node-RED is a tool for wiring together hardware devices, APIs, and online services in new and interesting ways. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes included in the palette. Flows can be then deployed to run-time in a single-click. The light-weight run-time is built on Node.js, taking full advantage of its event-driven, non-blocking model. This makes it ideal to run at the edge of the network. 
+
+Arduino 101 is the ideal successor of the UNO, updated with the latest technologies including the Intel(R) Curie(TM) processor.  It recognizes gestures and features a six-axis accelerometer and gyroscope.  Grove is a modulated, ready-to-use tool set. Much like Lego, it takes a building block approach to assembling electronics. Compared with the traditional, complicated learning method of using a breadboard and various electronic components to assemble a project, Grove simplifies the learning process significantly. The Grove system consists of a base shield and various modules with standardized connectors. The base shield allows for easy connection of any microprocessor input or output from the Grove modules, and every Grove module addresses a single function, such as a simple button or a more complex heart rate sensor. Each one comes with clear documentation and demo code to help you get started quickly.
 
 ## Required Hardware ##
 -   IoT Gateway that uses Intel® IoT Gateway Technology
 -   Arduino* 101
--	Grove* Shield kit
+-   Grove* Shield kit
 
 ![](images/image1.jpg)
 ![](images/image2.jpg)
@@ -22,12 +18,12 @@ ideal to run at the edge of the network. Arduino 101 is the ideal successor of t
 -   Intel® IoT Gateway Technology version 3.1 or above
 -   Node.js is installed on the IoT Gateway (installed by default)
 -   Node-RED node node-red-node-serialport is installed on the IoT Gateway (installed by default)
-- Node-Red-Node_Arduino node is installed on the IoT Gateway 
+-   Node-Red-Node_Arduino node is installed on the IoT Gateway 
 	- You can install this package by clicking on Packages and then Add Packages from the Intel® IoT Gateway Developer Hub
 -   Node-RED is installed on the IoT Gateway and is running (installed by default)
 
 ## Preparing and connecting the Arduion 101 with Grove Shield ##
--	These steps need to be done from a 2nd system, not the IoT gateway.  In this case, we've running Windows.
+-	These steps need to be done from a second system, not the IoT gateway.  For purposes of this tutorial, this second system is  running Windows.
 -	Install the latest version of Arduino IDE from http://arduino.com
 -	Plug in the Arduino 101 and set the IDE to the correct port and board type
 -	Load the StandardFirmata sketch from File/Examples/Firmata
